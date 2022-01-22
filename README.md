@@ -2,18 +2,20 @@
 This project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you’ll have to manipulate various types of algorithms and choose the one (of many) most appropriate solution for an optimized data sorting.
 
 for program: make
-
+```
 $>ARG="2 1 0 ..."; ./push_swap $ARG | ./checker_OS $ARG
 Result should OK
-
 ./push_swap 2 3 5 1 | wc -l
 Result: 4
+```
 
+```
 $>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
 6
 $>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG
 OK
 $>
+```
 
 ```
 - sa :swap 'a' - swap the first 2 elements at the top of stack 'a';
